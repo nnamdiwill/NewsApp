@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">News_Then_And_Now</string>
+    <string name="placement"> Add something here</string>
+    <string name="country_info_refresh_button_text">test object</string>
+    <string name="country_info_screen_title">Title Screen</string>
+    <string name="about_content_description">content description</string>
+    <string name="country_info_error" />
+    <string name="news_info_refresh_button_text">Refresh News</string>
+    <string name="error_button_retry_text">Error:Please Retry</string>
+    <string name="retry">Error:Please Retry</string>
+
+</resources>
