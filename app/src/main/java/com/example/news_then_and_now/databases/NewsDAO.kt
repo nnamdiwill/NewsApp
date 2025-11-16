@@ -9,8 +9,6 @@ import androidx.room.Query
 import androidx.room.Update
 import com.example.news_then_and_now.dataclasses.CurrentNews
 
-
-
 @Dao
 interface NewsDAO{
 

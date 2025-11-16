@@ -1,4 +1,4 @@
-package com.example.news_then_and_now.components
+package com.example.news_then_and_now.ui.theme.components
 
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.runtime.Composable

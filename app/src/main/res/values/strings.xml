@@ -8,5 +8,14 @@
     <string name="news_info_refresh_button_text">Refresh News</string>
     <string name="error_button_retry_text">Error:Please Retry</string>
     <string name="retry">Error:Please Retry</string>
+    <string name="nav_back_content_description">Go Back</string>
+    <string name="top_bar">top bar</string>
+    <string name="about_screen_content">content</string>
+    <string name="about_screen_version">screen version</string>
+    <string name="news_info_error">Info Error!!</string>
+    <string name="settings_screen_title">Screen Title</string>
+    <string name="settings_enable_local_storage">Enable local storage</string>
+    <string name="settings_enable_rotation">Enable Rotation</string>
+    <string name="settings_enable_favorites_feature">Enable Favorite</string>
 
 </resources>

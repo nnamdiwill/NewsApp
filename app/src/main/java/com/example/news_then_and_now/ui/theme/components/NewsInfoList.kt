@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.example.news_then_and_now.R
 import com.example.news_then_and_now.currentNews
-import com.example.news_then_and_now.ui.theme.screens.NewsListState
+import com.example.news_then_and_now.ui.theme.screens.newsList.NewsListState
 
 
 @Composable

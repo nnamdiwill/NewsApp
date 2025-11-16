@@ -8,8 +8,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.news_then_and_now.dataclasses.CurrentNews
-import com.example.news_then_and_now.models.NewsDetailScreen
-import com.example.news_then_and_now.models.NewsDetailViewModel
+import com.example.news_then_and_now.ui.theme.screens.newsDetails.NewsDetailScreen
+import com.example.news_then_and_now.ui.theme.screens.newsDetails.NewsDetailViewModel
 import com.example.news_then_and_now.newsinfo.NewsInfoScreen
 import com.example.news_then_and_now.newsinfo.NewsInfoViewModel
 import com.example.news_then_and_now.repositories.NewsRepository

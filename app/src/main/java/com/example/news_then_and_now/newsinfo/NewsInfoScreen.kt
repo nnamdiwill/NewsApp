@@ -14,13 +14,12 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.example.news_then_and_now.R
-import com.example.news_then_and_now.components.AIconButton
-import com.example.news_then_and_now.components.Atext
-import com.example.news_then_and_now.components.Error
+import com.example.news_then_and_now.ui.theme.components.AIconButton
+import com.example.news_then_and_now.ui.theme.components.Atext
 import com.example.news_then_and_now.components.Loading
 import com.example.news_then_and_now.components.NewsInfoList
 import com.example.news_then_and_now.dataclasses.CurrentNews
-import com.example.news_then_and_now.models.NewsDetailViewModel
+import com.example.news_then_and_now.ui.theme.screens.newsDetails.NewsDetailViewModel
 import com.google.rpc.Help
 
 

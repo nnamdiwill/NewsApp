@@ -70,6 +70,8 @@ dependencies {
     implementation(libs.protolite.well.known.types)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.compose.ui)
+    implementation(libs.room.ktx)
+    implementation(libs.androidx.room.common.jvm)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -97,6 +99,9 @@ dependencies {
     implementation(libs.http4k.format.moshi)
     implementation (libs.converter.moshi)
     implementation(libs.coil.compose)
+
+    // https://mvnrepository.com/artifact/androidx.room/room-ktx
+    runtimeOnly("androidx.room:room-ktx:2.8.3")
 
 
 

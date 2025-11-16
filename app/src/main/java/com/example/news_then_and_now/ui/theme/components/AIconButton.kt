@@ -1,4 +1,4 @@
-package com.example.news_then_and_now.components
+package com.example.news_then_and_now.ui.theme.components
 
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.material3.IconButtonColors

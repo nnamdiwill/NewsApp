@@ -1,5 +1,5 @@
 [versions]
-agp = "8.13.0"
+agp = "8.13.1"
 coil = "2.4.0"
 coilCompose = "2.6.0"
 converterMoshi = "2.9.0"
@@ -21,6 +21,8 @@ material3Android = "1.3.1"
 protoliteWellKnownTypes = "18.0.0"
 roomKtx = "2.8.1"
 ui = "1.9.3"
+roomKtxVersion = "2.8.3"
+roomCommonJvm = "2.8.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -51,6 +53,8 @@ protolite-well-known-types = { group = "com.google.firebase", name = "protolite-
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 androidx-compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtxVersion" }
+androidx-room-common-jvm = { group = "androidx.room", name = "room-common-jvm", version.ref = "roomCommonJvm" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

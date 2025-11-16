@@ -1,19 +1,12 @@
-package com.example.news_then_and_now.models
-
-import com.example.news_then_and_now.newsinfo.NewsInfoState
+package com.example.news_then_and_now.ui.theme.screens.newsDetails
 
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewModelScope
-import com.example.news_then_and_now.currentNews
 import com.example.news_then_and_now.dataclasses.CurrentNews
 import com.example.news_then_and_now.repositories.NewsRepository
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.launch
 
 class NewsDetailViewModel(
     private val newsId: Int,

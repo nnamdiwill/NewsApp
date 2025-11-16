@@ -1,4 +1,4 @@
-package com.example.news_then_and_now.models
+package com.example.news_then_and_now.ui.theme.screens.newsDetails
 
 import com.example.news_then_and_now.dataclasses.CurrentNews
 
