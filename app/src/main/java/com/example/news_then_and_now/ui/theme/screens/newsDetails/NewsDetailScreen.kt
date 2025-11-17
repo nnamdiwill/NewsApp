@@ -32,7 +32,7 @@ import com.example.news_then_and_now.repositories.NewsRepository
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun NewsDetailScreen(
-
+    newsIndex:Int,
     viewModel: NewsDetailViewModel,
     onNavigateUp: () -> Unit,
 ) {
@@ -91,7 +91,9 @@ fun NewsDetailScreen(
 @Composable
 fun NewsDetailPreview(){
  val repo: NewsRepository? = null
-    NewsDetailScreen(viewModel = viewModel(
+    NewsDetailScreen(
+        newsIndex = 1,
+        viewModel = viewModel(
 
         factory = repo?.let {
             NewsDetailViewModel.NewsDetailsViewModelFactory(
