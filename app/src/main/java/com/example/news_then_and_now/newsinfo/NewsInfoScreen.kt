@@ -19,6 +19,7 @@ import com.example.news_then_and_now.ui.theme.components.Atext
 import com.example.news_then_and_now.components.Loading
 import com.example.news_then_and_now.components.NewsInfoList
 import com.example.news_then_and_now.dataclasses.CurrentNews
+import com.example.news_then_and_now.ui.theme.components.NewsInfoList
 import com.example.news_then_and_now.ui.theme.screens.newsDetails.NewsDetailViewModel
 import com.google.rpc.Help
 

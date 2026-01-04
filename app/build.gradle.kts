@@ -1,14 +1,22 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    alias(libs.plugins.compose.compiler) apply false
     id("kotlin-parcelize")
+   // id("org.jetbrains.kotlin.plugin.compose") version "2.2.21"
   //  id("com.google.devtools.ksp")
+
+   // id("org.jetbrains.kotlin.android") version "2.2.21" apply false // Update this version
 
 }
 
 android {
     namespace = "com.example.news_then_and_now"
-    compileSdk = 35
+    compileSdk = 36
+
+
 
     defaultConfig {
         applicationId = "com.example.news_then_and_now"
@@ -38,15 +46,18 @@ android {
        // sourceCompatibility = JavaVersion.VERSION_17
       //  targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_11)
+        }
     }
     buildFeatures {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+      //  kotlinCompilerExtensionVersion = "1.5.1"
     }
+
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -55,6 +66,7 @@ android {
 }
 
 dependencies {
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -91,10 +103,6 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     implementation("androidx.preference:preference:1.2.1")
     implementation("androidx.datastore:datastore-preferences:1.1.7")
-
-
-
-
     // https://mvnrepository.com/artifact/org.http4k/http4k-format-moshi
     implementation(libs.http4k.format.moshi)
     implementation (libs.converter.moshi)
@@ -102,16 +110,5 @@ dependencies {
 
     // https://mvnrepository.com/artifact/androidx.room/room-ktx
     runtimeOnly("androidx.room:room-ktx:2.8.3")
-
-
-
-
-
-
-
-
-
-
-
-
 }
+

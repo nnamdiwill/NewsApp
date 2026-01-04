@@ -6,6 +6,7 @@ val sampleNews = CurrentNews(
 news = "https://nesn.com/2024/05/bruins-players-reveal-injuries-after-postseason-run-concludes/ ",
     author = "Adam London",
     country = "US",
+    title = "Bruins players reveal injuries after postseason run concludes",
     description = "The Boston Bruins, " +
             "like virtually every other team that reached the Stanley Cup playoffs," +
             " battled through injuries in the postseason. " +
@@ -19,3 +20,11 @@ news = "https://nesn.com/2024/05/bruins-players-reveal-injuries-after-postseason
 
 
 
+/*
+ var news: String, // URL
+    var author : String,
+    var country : String,
+    var title:String,
+    var description : String,
+    var isUpdated: Boolean
+ */

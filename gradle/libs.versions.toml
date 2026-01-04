@@ -1,28 +1,28 @@
 [versions]
-agp = "8.13.1"
-coil = "2.4.0"
-coilCompose = "2.6.0"
-converterMoshi = "2.9.0"
-dagger = "2.51.1"
+agp = "8.13.2"
+coil = "2.7.0"
+coilCompose = "2.7.0"
+converterMoshi = "3.0.0"
+dagger = "2.57.2"
 hiltNavigationCompose = "1.3.0"
-http4kFormatMoshi = "5.14.4.0"
-kotlin = "1.9.0"
-coreKtx = "1.12.0"
+http4kFormatMoshi = "6.25.0.0"
+kotlin = "2.3.0"
+coreKtx = "1.17.0"
 junit = "4.13.2"
-junitVersion = "1.1.5"
-espressoCore = "3.5.1"
-lifecycleRuntimeKtx = "2.7.0"
-activityCompose = "1.8.2"
-composeBom = "2023.08.00"
-navigationCompose = "2.7.7"
-retrofit = "2.11.0"
-roomCommon = "2.6.1"
-material3Android = "1.3.1"
-protoliteWellKnownTypes = "18.0.0"
-roomKtx = "2.8.1"
-ui = "1.9.3"
-roomKtxVersion = "2.8.3"
-roomCommonJvm = "2.8.3"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+lifecycleRuntimeKtx = "2.10.0"
+activityCompose = "1.12.2"
+composeBom = "2025.12.01"
+navigationCompose = "2.9.6"
+retrofit = "3.0.0"
+roomCommon = "2.8.4"
+material3Android = "1.4.0"
+protoliteWellKnownTypes = "18.0.1"
+roomKtx = "2.8.4"
+ui = "1.10.0"
+roomKtxVersion = "2.8.4"
+roomCommonJvm = "2.8.4"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -59,4 +59,5 @@ androidx-room-common-jvm = { group = "androidx.room", name = "room-common-jvm", 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 

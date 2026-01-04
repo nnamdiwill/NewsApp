@@ -4,6 +4,7 @@ import android.content.Context
 import com.example.news_then_and_now.NewsService
 import com.example.news_then_and_now.databases.CurrentDatabase
 import com.example.news_then_and_now.prefs.NewsPrefs
+import com.example.news_then_and_now.prefs.NewsPrefsImpl
 import com.example.news_then_and_now.repositories.NewsRepository
 import com.example.news_then_and_now.repositories.NewsRepositoryImpl
 import com.squareup.moshi.Moshi
